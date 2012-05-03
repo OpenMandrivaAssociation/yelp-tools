@@ -1,9 +1,9 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
-Name:		yelp-tools
-Version:	3.2.1
-Release:	1
 Summary:	Create, manage, and publish documentation for Yelp
+Name:		yelp-tools
+Version:	3.4.1
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2+
 URL:		http://projects.gnome.org/yelp/
