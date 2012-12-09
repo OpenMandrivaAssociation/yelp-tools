@@ -1,9 +1,9 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
-Summary:	Create, manage, and publish documentation for Yelp
 Name:		yelp-tools
-Version:	3.4.1
+Version:	3.6.1
 Release:	1
+Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
 URL:		http://projects.gnome.org/yelp/
@@ -41,4 +41,3 @@ wraps things up in a developer-friendly way.
 %{_bindir}/yelp-new
 %{_datadir}/yelp-tools
 %{_datadir}/aclocal/yelp.m4
-
