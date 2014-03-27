@@ -2,19 +2,18 @@
 
 Name:		yelp-tools
 Version:	3.6.1
-Release:	5
+Release:	6
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
 URL:		http://projects.gnome.org/yelp/
 Source0:	http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildArch:	noarch
-
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(yelp-xsl)
-
+Requires:	itstool
 Requires:	libxml2-utils
 Requires:	yelp-xsl
 
@@ -41,3 +40,4 @@ wraps things up in a developer-friendly way.
 %{_bindir}/yelp-new
 %{_datadir}/yelp-tools
 %{_datadir}/aclocal/yelp.m4
+
