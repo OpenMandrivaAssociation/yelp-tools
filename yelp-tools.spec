@@ -2,7 +2,7 @@
 
 Name:		yelp-tools
 Version:	3.6.1
-Release:	7
+Release:	8
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
