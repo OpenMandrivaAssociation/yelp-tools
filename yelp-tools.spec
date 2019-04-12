@@ -1,8 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		yelp-tools
-Version:	3.28.0
-Release:	2
+Version:	3.32.0
+Release:	1
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
@@ -28,10 +28,10 @@ wraps things up in a developer-friendly way.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc AUTHORS README
