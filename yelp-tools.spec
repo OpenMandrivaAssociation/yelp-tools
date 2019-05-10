@@ -1,7 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		yelp-tools
-Version:	3.32.0
+Version:	3.32.1
 Release:	1
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
