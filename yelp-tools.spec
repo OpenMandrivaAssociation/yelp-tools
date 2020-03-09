@@ -2,7 +2,7 @@
 
 Name:		yelp-tools
 Version:	3.32.2
-Release:	1
+Release:	2
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
@@ -40,4 +40,3 @@ wraps things up in a developer-friendly way.
 %{_bindir}/yelp-new
 %{_datadir}/yelp-tools
 %{_datadir}/aclocal/yelp.m4
-
