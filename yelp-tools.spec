@@ -14,6 +14,7 @@ BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(yelp-xsl)
+BuildRequires:  python3dist(lxml)
 Requires:	itstool
 Requires:	libxml2-utils
 Requires:	yelp-xsl
