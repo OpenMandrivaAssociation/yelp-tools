@@ -9,6 +9,7 @@ License:	GPLv2+
 URL:		http://projects.gnome.org/yelp/
 Source0:	http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildArch:	noarch
+BuildRequires:  meson
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	xsltproc
@@ -27,11 +28,11 @@ wraps things up in a developer-friendly way.
 %setup -q
 
 %build
-%configure
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %files
 %doc AUTHORS README
