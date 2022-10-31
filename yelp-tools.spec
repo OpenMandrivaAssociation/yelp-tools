@@ -36,7 +36,7 @@ wraps things up in a developer-friendly way.
 %meson_install
 
 %files
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_bindir}/yelp-build
 %{_bindir}/yelp-check
 %{_bindir}/yelp-new
