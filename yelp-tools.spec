@@ -2,12 +2,12 @@
 
 Name:		yelp-tools
 Version:	42.1
-Release:	4
+Release:	5
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
-URL:		http://projects.gnome.org/yelp/
-Source0:	http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+URL:		https://projects.gnome.org/yelp/
+Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:  meson
 BuildRequires:	itstool
