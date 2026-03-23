@@ -2,7 +2,7 @@
 
 Name:		yelp-tools
 Version:	42.1
-Release:	8
+Release:	9
 Summary:	Create, manage, and publish documentation for Yelp
 Group:		System/Internationalization
 License:	GPLv2+
@@ -11,12 +11,12 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildArch:	noarch
 BuildRequires:  meson
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(yelp-xsl)
 BuildRequires:  python3dist(lxml)
 Requires:	itstool
-Requires:	libxml2-utils
+Requires:	libxml2-utils >= 2.15.2
 Requires:	yelp-xsl
 
 %description
